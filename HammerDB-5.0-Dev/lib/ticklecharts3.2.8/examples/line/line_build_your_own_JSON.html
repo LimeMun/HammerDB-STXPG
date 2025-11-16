@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Magic Structure!</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+  </head>
+  <body>
+    <div id="id_0b43dfcfa6a8459d9a498b832a88aaf3" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+      var chart_0b43dfcfa6a8459d9a498b832a88aaf3 = echarts.init(document.getElementById("id_0b43dfcfa6a8459d9a498b832a88aaf3"), null, {renderer: "canvas"});
+      var option_0b43dfcfa6a8459d9a498b832a88aaf3 = {
+  "darkMode": true,
+  "backgroundColor": "#100C2A",
+  "color": [
+    "#4992ff",
+    "#7cffb2",
+    "#fddd60",
+    "#ff6e76",
+    "#58d9f9",
+    "#05c091",
+    "#ff8a45",
+    "#8d48e3",
+    "#dd79ff"
+  ],
+  "animation": true,
+  "animationDuration": 1000,
+  "animationDurationUpdate": 500,
+  "animationEasing": "cubicInOut",
+  "animationEasingUpdate": "cubicInOut",
+  "animationThreshold": 2000,
+  "progressiveThreshold": 3000,
+  "title": {
+    "show": true,
+    "text": "Build your own JSON!",
+    "target": "blank",
+    "textStyle": {"color": "#EEF1FA"},
+    "subtext": "with eStruct class:",
+    "subtarget": "blank",
+    "subtextStyle": {
+      "color": "#B9B8CE",
+      "fontSize": 12
+    },
+    "textAlign": null,
+    "textVerticalAlign": "auto",
+    "padding": 5,
+    "itemGap": 10,
+    "z": 2,
+    "left": "auto",
+    "top": "auto",
+    "right": "auto",
+    "bottom": "auto",
+    "backgroundColor": "transparent",
+    "borderColor": "transparent",
+    "borderWidth": 1,
+    "borderRadius": 0
+  },
+  "xAxis": {"data": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat",
+      "Sun"
+    ]},
+  "yAxis": {"type": "value"},
+  "series": [
+    {
+      "data": [
+        51.84762275398133,
+        402.99562616413255,
+        147.48894057585343,
+        346.62425836856676,
+        213.91040050141066,
+        192.10122720901913,
+        145.3257019842629
+      ],
+      "type": "line",
+      "name": "myLineStructJSON1",
+      "smooth": true,
+      "silent": false
+    },
+    {
+      "data": [
+        489.07324950633256,
+        354.10445293137076,
+        433.54041754898634,
+        13.797745813521438,
+        398.71388785481173,
+        184.31317581996004,
+        251.5460060683759
+      ],
+      "type": "line",
+      "name": "myLineStructJSON2",
+      "smooth": true
+    }
+  ]
+};
+      chart_0b43dfcfa6a8459d9a498b832a88aaf3.setOption(option_0b43dfcfa6a8459d9a498b832a88aaf3);
+    </script>
+  </body>
+</html>
